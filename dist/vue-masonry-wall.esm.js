@@ -227,7 +227,7 @@ var script = {
     },
 
     delegatedRedraw() {
-      eventBus.on('redrawEvents', () => {
+      eventBus.$on('redrawEvents', () => {
         this.redraw();
       });
     }
@@ -424,8 +424,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-01b97719_0", {
-    source: ".masonry-wall[data-v-01b97719]{display:flex}.masonry-wall[data-v-01b97719]:not(.ready){opacity:0}.masonry-column[data-v-01b97719]{flex-grow:1;flex-basis:0;display:flex;flex-direction:column}.masonry-bottom[data-v-01b97719]{flex-grow:1;margin-top:-300px;padding-top:300px;min-height:100px}",
+  inject("data-v-426986af_0", {
+    source: ".masonry-wall[data-v-426986af]{display:flex}.masonry-wall[data-v-426986af]:not(.ready){opacity:0}.masonry-column[data-v-426986af]{flex-grow:1;flex-basis:0;display:flex;flex-direction:column}.masonry-bottom[data-v-426986af]{flex-grow:1;margin-top:-300px;padding-top:300px;min-height:100px}",
     map: undefined,
     media: undefined
   });
@@ -433,7 +433,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-01b97719";
+const __vue_scope_id__ = "data-v-426986af";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;

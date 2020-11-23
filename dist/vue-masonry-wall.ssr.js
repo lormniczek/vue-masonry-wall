@@ -259,7 +259,7 @@ var script = {
     delegatedRedraw: function delegatedRedraw() {
       var _this3 = this;
 
-      eventBus.on('redrawEvents', function () {
+      eventBus.$on('redrawEvents', function () {
         _this3.redraw();
       });
     }
@@ -396,8 +396,8 @@ var __vue_render__ = function __vue_render__() {
     },
     style: _vm._style.wall
   }, _vm._l(_vm.columns, function (lane, index) {
-    return _vm._ssrNode("<div class=\"masonry-column\"" + _vm._ssrStyle(null, _vm._style.lane, null) + " data-v-01b97719>", "</div>", [_vm._l(lane.indexes, function (i) {
-      return _vm._ssrNode("<div class=\"masonry-item\"" + _vm._ssrStyle(null, _vm._style.item, null) + " data-v-01b97719>", "</div>", [_vm._t("default", [_vm._v(_vm._s(_vm.items[i]))], {
+    return _vm._ssrNode("<div class=\"masonry-column\"" + _vm._ssrStyle(null, _vm._style.lane, null) + " data-v-426986af>", "</div>", [_vm._l(lane.indexes, function (i) {
+      return _vm._ssrNode("<div class=\"masonry-item\"" + _vm._ssrStyle(null, _vm._style.item, null) + " data-v-426986af>", "</div>", [_vm._t("default", [_vm._v(_vm._s(_vm.items[i]))], {
         "item": _vm.items[i],
         "index": i
       })], 2);
@@ -428,8 +428,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-01b97719_0", {
-    source: ".masonry-wall[data-v-01b97719]{display:flex}.masonry-wall[data-v-01b97719]:not(.ready){opacity:0}.masonry-column[data-v-01b97719]{flex-grow:1;flex-basis:0;display:flex;flex-direction:column}.masonry-bottom[data-v-01b97719]{flex-grow:1;margin-top:-300px;padding-top:300px;min-height:100px}",
+  inject("data-v-426986af_0", {
+    source: ".masonry-wall[data-v-426986af]{display:flex}.masonry-wall[data-v-426986af]:not(.ready){opacity:0}.masonry-column[data-v-426986af]{flex-grow:1;flex-basis:0;display:flex;flex-direction:column}.masonry-bottom[data-v-426986af]{flex-grow:1;margin-top:-300px;padding-top:300px;min-height:100px}",
     map: undefined,
     media: undefined
   });
@@ -437,10 +437,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-01b97719";
+var __vue_scope_id__ = "data-v-426986af";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-01b97719";
+var __vue_module_identifier__ = "data-v-426986af";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
