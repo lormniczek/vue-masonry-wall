@@ -16,6 +16,7 @@
 <script>
   import {maxBy} from 'lodash'
   import {ObserveVisibility} from "vue-observe-visibility";
+  import {eventBus} from "@/scripts/eventBus";
 
   /**
    * @param count number of columns to create
@@ -112,6 +113,7 @@
 
       this.$resize()
       window.addEventListener('resize', this.$resize)
+      this.delegatedRedraw()
     },
     /**
      * Remove resize event listener
@@ -221,6 +223,11 @@
           this.cursor++
         }
       },
+      delegatedRedraw(){
+        eventBus.on('redrawEvents', () => {
+          this.redraw();
+        })
+      }
     }
   }
 </script>
