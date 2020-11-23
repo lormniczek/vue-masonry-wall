@@ -224,7 +224,7 @@
         }
       },
       delegatedRedraw(){
-        eventBus.on('redrawEvents', () => {
+        eventBus.$on('redrawEvents', () => {
           this.redraw();
         })
       }
